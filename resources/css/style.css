@@ -526,7 +526,7 @@ cite img {
 /* --------------- CONTACT FORM -------------*/
 
 .contact-form {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -550,6 +550,33 @@ input[type=checkbox] {
 
 *:focus {
     outline: none;
+}
+
+
+/* --------------- MAP -------------*/
+
+.map-box {
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    z-index: 0;
+}
+
+.form-box {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+    height: 560px;
+    padding-top: 40px;
 }
 
 
