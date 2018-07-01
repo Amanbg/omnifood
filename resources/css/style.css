@@ -552,18 +552,37 @@ input[type=checkbox] {
     outline: none;
 }
 
+.form-messages {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.success {
+    background-color: rgba(126, 163, 57, 0.802);
+}
+
+.error {
+    background-color: rgba(223, 16, 16, 0.809);
+}
+
 
 /* --------------- MAP -------------*/
 
 .map-box {
     width: 100%;
     height: 560px;
+    /*height 630 px for form message box*/
     position: relative;
 }
 
 .map {
     width: 100%;
     height: 560px;
+    /*height 630 px for form message box*/
     position: relative;
     z-index: 0;
 }
@@ -576,6 +595,7 @@ input[type=checkbox] {
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 10;
     height: 560px;
+    /*height 630 px for form message box*/
     padding-top: 40px;
 }
 
